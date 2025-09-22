@@ -6,37 +6,29 @@
 
 
 # 🔎 Project Workflow
-- 1. Data Exploration
+1. Data Exploration
 
-  View all product data (SELECT * FROM Zepto).
-  Count total rows in the dataset.
-  Check for null values across key fields.
-  Compare stock available vs. unavailable.
-  Detect duplicate product names.
+  - View all product data (SELECT * FROM Zepto).
+  - Count total rows in the dataset.
+  - Check for null values across key fields.
+  - Compare stock available vs. unavailable.
+  - Detect duplicate product names.
 
-- 2. Data Cleaning
+2. Data Cleaning
 
-Identify and remove products with invalid mrp = 0.
+  - Identify and remove products with invalid mrp = 0.
+  - Convert prices from paise to rupees.
 
-Convert prices from paise to rupees.
+3. Business Insights
 
-- 3. Business Insights
-
-Top 10 best-value products based on discount percent.
-
-High MRP products that are out of stock.
-
-Estimated revenue per category based on selling price and stock.
-
-Products with MRP > 500 and discount < 10%.
-
-Top 5 categories with highest average discount.
-
-Price per gram for products above 100g.
-
-Categorize products into Low, Medium, Bulk weight categories.
-
-Total inventory weight per category.
+  - Top 10 best-value products based on discount percent.
+  - High MRP products that are out of stock.
+  - Estimated revenue per category based on selling price and stock.
+  - Products with MRP > 500 and discount < 10%.
+  - Top 5 categories with highest average discount.
+  - Price per gram for products above 100g.
+  - Categorize products into Low, Medium, Bulk weight categories.
+  - Total inventory weight per category.
 
 # 📊 Key Learnings
 
