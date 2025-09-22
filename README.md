@@ -1,35 +1,20 @@
-🛒 Zepto SQL Project
+### 🛒 Zepto SQL Project
 
-This project contains SQL queries for analyzing product, pricing, and inventory data from a Zepto dataset. It demonstrates data exploration, cleaning, and business insights using SQL.
+# This project contains SQL queries for analyzing product, pricing, and inventory data from a Zepto dataset. It demonstrates data exploration, cleaning, and business insights using SQL.
 
-📂 Database Schema
-CREATE TABLE Zepto(
-  sku_id SERIAL PRIMARY KEY,
-  category VARCHAR(120),
-  name VARCHAR(150) NOT NULL,
-  mrp NUMERIC(8,2),
-  discount_percent NUMERIC(5,2),
-  available_quantity INTEGER,
-  discounted_selling_price NUMERIC(8,2),
-  WeightinGMs INTEGER,
-  outofstocks BOOLEAN,
-  quantity INTEGER
-);
+# 📂 Database Schema
 
-🔎 Project Workflow
-1. Data Exploration
 
-View all product data (SELECT * FROM Zepto).
+# 🔎 Project Workflow
+-- 1. Data Exploration
 
-Count total rows in the dataset.
+  View all product data (SELECT * FROM Zepto).
+  Count total rows in the dataset.
+  Check for null values across key fields.
+  Compare stock available vs. unavailable.
+  Detect duplicate product names.
 
-Check for null values across key fields.
-
-Compare stock available vs. unavailable.
-
-Detect duplicate product names.
-
-2. Data Cleaning
+- 2. Data Cleaning
 
 Identify and remove products with invalid mrp = 0.
 
