@@ -3,6 +3,7 @@
 # This project contains SQL queries for analyzing product, pricing, and inventory data from a Zepto dataset. It demonstrates data exploration, cleaning, and business insights using SQL.
 
 # 📂 Database Schema
+<img width="376" height="319" alt="Screenshot 2025-09-22 100557" src="https://github.com/user-attachments/assets/47e02372-2ed6-47a1-95f1-113c3f7f3414" />
 
 
 # 🔎 Project Workflow
@@ -42,16 +43,16 @@
 
 # 🛠️ Tech Stack
 
-Database: PostgreSQL / MySQL
+  - Database: PostgreSQL / MySQL
 
-SQL Concepts Used:
+  - SQL Concepts Used:
 
-Data exploration & validation
+  - Data exploration & validation
 
-Data cleaning (updates, deletes)
+  - Data cleaning (updates, deletes)
 
-Aggregates (SUM, AVG, COUNT)
+  - Aggregates (SUM, AVG, COUNT)
 
-Conditional logic (CASE)
+  - Conditional logic (CASE)
 
-Sorting & grouping
+  - Sorting & grouping
