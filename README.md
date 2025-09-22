@@ -32,13 +32,13 @@
 
 # 📊 Key Learnings
 
-  - Data Quality Checks: Detect missing values, duplicates, and invalid pricing.
+  - **Data Quality Checks**: Detect missing values, duplicates, and invalid pricing.
 
-  - Data Cleaning: Standardize values and correct unit discrepancies.
+  - **Data Cleaning**: Standardize values and correct unit discrepancies.
 
-  - Business Analytics with SQL: Discounts, inventory, and revenue analysis.
+  - **Business Analytics with SQL**: Discounts, inventory, and revenue analysis.
 
-  -** Advanced SQL:** Use of CASE, aggregations, grouping, and ordering to drive insights.
+  - **Advanced SQL**: Use of CASE, aggregations, grouping, and ordering to drive insights.
 
 # 🛠️ Tech Stack
 
