@@ -6,7 +6,7 @@
 
 
 # 🔎 Project Workflow
--- 1. Data Exploration
+- 1. Data Exploration
 
   View all product data (SELECT * FROM Zepto).
   Count total rows in the dataset.
@@ -20,7 +20,7 @@ Identify and remove products with invalid mrp = 0.
 
 Convert prices from paise to rupees.
 
-3. Business Insights
+- 3. Business Insights
 
 Top 10 best-value products based on discount percent.
 
@@ -38,7 +38,7 @@ Categorize products into Low, Medium, Bulk weight categories.
 
 Total inventory weight per category.
 
-📊 Key Learnings
+# 📊 Key Learnings
 
 Data Quality Checks: Detect missing values, duplicates, and invalid pricing.
 
@@ -48,7 +48,7 @@ Business Analytics with SQL: Discounts, inventory, and revenue analysis.
 
 Advanced SQL: Use of CASE, aggregations, grouping, and ordering to drive insights.
 
-🛠️ Tech Stack
+# 🛠️ Tech Stack
 
 Database: PostgreSQL / MySQL
 
